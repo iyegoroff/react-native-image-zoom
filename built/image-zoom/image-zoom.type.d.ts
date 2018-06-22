@@ -16,19 +16,19 @@ export declare class Props {
     /**
      * 操作区域宽度
      */
-    cropWidth: number;
+    cropWidth?: number;
     /**
      * 操作区域高度
      */
-    cropHeight: number;
+    cropHeight?: number;
     /**
      * 图片宽度
      */
-    imageWidth: number;
+    imageWidth?: number;
     /**
      * 图片高度
      */
-    imageHeight: number;
+    imageHeight?: number;
     /**
      * 单手是否能移动图片
      */
@@ -78,11 +78,11 @@ export declare class Props {
     /**
      * minimum zoom scale
      */
-    minScale: number;
+    minScale?: number;
     /**
      * maximum zoom scale
      */
-    maxScale: number;
+    maxScale?: number;
     /**
      * 单击的回调
      */
